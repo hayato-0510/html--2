@@ -54,7 +54,7 @@ header h1 {
     clear: left;
     font-size: 100%;
     font-weight: normal;
-    margin: 0;
+    margin: 100;
     background-color:  #E6E4DD;
     padding: 5px 10px;
 }
@@ -78,4 +78,14 @@ footer {
     text-align: center;
     font-size: 80%;
     font-weight: 900;
+}
+@media only screen and (max-width: 600px){
+    .description img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+}
+.discription img:hover {
+    opacity: .9;
 }
